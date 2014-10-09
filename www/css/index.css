@@ -2,3 +2,9 @@
 {
     padding: 21px;
 }
+
+#header {
+    height : 200px;
+    background: #ff007e;
+    width : 100%;
+}
