@@ -9,7 +9,7 @@ $(document).on("pageshow", function () {
     $.mobile.loading("hide");
     $("body").removeClass('ui-disabled');
     var header = document.createElement('div').setAttribute('id', 'header');
-    header.append($("body"));
+    $(header).appendTo($(".wrapper"));
     if ($("#contactsList").length == 1) {
         $("body").addClass('ui-disabled').css("background", "#000");
         $.mobile.loading("show");
